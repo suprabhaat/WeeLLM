@@ -1,4 +1,4 @@
-![WeeLLM Banner](docs/banner.png)
+![WeeLLM Banner](assets/banner.png)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
@@ -44,8 +44,12 @@ WeeLLM dynamically streams text encoder and transformer layers to the GPU for ma
 > The models run with **no quantization** on RTX-3050 — full bfloat16 (1024x1024) weights streamed layer-by-layer to GPU.
 
 <div align="center">
-  <img src="docs/bar_chart.png" alt="Performance Bar Chart" width="85%">
+  <img src="assets/bar_chart.png" alt="Performance Bar Chart" width="85%">
 </div>
+
+# Documentation
+
+ - Detailed documentation can be found at TODO.
 
 # Supported Model List
 
@@ -106,6 +110,7 @@ WeeLLM dynamically streams text encoder and transformer layers to the GPU for ma
 ## TODOs
 
 - [ ] **ControlNet / T2I-Adapter Integration:** Enable structural conditioning (canny, depth, pose) while maintaining strict VRAM streaming budgets.
+- [ ] **Add detailed documentation:** Documentation in svelte or Lume (deno).
 
 ---
 
